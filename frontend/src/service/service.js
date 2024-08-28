@@ -6,7 +6,7 @@ export const signupService = async (formData) => {
    
 console.log("data recieved in service",formData);
 
-    const response = await apiRequest('https://jobportalsignup.onrender.com/api/users/signup', 'POST', formData);
+    const response = await apiRequest('https://jobportal-29j7.onrender.com/api/users/signup', 'POST', formData);
     return response; 
   } catch (error) {
     throw error; 
